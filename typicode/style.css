@@ -1,0 +1,80 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:8%;
+    background:#45b6fe;
+    color:#ffeeda;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.campoPesquisa{
+    display:flex;
+    width: 50%;
+    height: 100%;
+    margin-top: 30px;
+}
+.campoPesquisa > img{
+    width: 10%;
+    height: 40%;
+}
+.imgPesquisa{
+    width:22px;
+    height:70%;
+}
+.logo{
+    display:flex;
+    margin-left:6%;
+}
+.logo > img{
+    width:10%;
+    height:70%;
+    margin-top:7px;
+    margin-right: 2%;
+}
+.inputPesquisa{
+    background: #daeefa;
+    width: 60%;
+}
+
+body {
+    display:flex;
+    background:#d9f1ff;
+    flex-wrap: wrap;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color:#23395d;
+}
+h3{
+    text-align: center;
+}
+.selectOrigem{
+    background-color: #daeefa;
+    width:25%;
+}
+.tablePrincipal{
+    width:100%;
+    margin-top: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.tablePrincipal, td, th{
+    font-size: 18px;
+    border: 2px solid #23395d;
+    padding: 15px;
+}
+tr{
+    background-color: #e8ffff;
+}
+tr:hover{
+    background-color: #bfe6ff;
+}
+th{
+    height: 50px;
+    background-color: #45b6fe;
+}
