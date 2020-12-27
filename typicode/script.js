@@ -113,26 +113,28 @@ function convertSection(selectOrigem) {
 
 function criaSugestao(numeroSugestao) {
     let mensagem = document.createElement('h3');
+    let text = "Para ver a lista de "
     switch (numeroSugestao) {
         case 1: {
-            mensagem.appendChild(document.createTextNode("Sugestão: Para ver a lista de posts de um usuário"
-                + " específico, digite seu ID na caixa de pesquisa"));
+            text += "posts"
             break;
         }
         case 2: {
-            mensagem.appendChild(document.createTextNode("Sugestão: Para ver a lista de álbuns de um usuário"
-                + " específico, digite seu ID na caixa de pesquisa"));
+            text += "álbuns"
             break;
         }
         case 3: {
-            mensagem.appendChild(document.createTextNode("Sugestão: Para ver a lista de To Do's de um usuário"
-                + " específico, digite seu ID na caixa de pesquisa"));
+            text += "To Do's"
             break;
         }
         case 4:{
             mensagem.appendChild(document.createTextNode("Por favor, selecione uma origem."));
             break;
         }
+    }
+    if(numeroSugestao < 4){
+        text += "  de um usuário específico, digite seu ID na caixa de pesquisa"
+        mensagem.appendChild(document.createTextNode(text))
     }
     mensagens.appendChild(mensagem);
 }
