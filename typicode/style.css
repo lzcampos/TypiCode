@@ -30,8 +30,10 @@
 .mensagens {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 20px;
+    text-align: center;
 }
 
 .logo{
@@ -52,6 +54,9 @@
 .inputPesquisa{
     background: #daeefa;
     width: 60%;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
 }
 
 body {
