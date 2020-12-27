@@ -16,7 +16,7 @@ btnPesquisa.addEventListener('click', () => {
             .then((response) => response.json())
             .then((json) => generateTable(json))
     } else {
-        var mensagem = document.createElement('h3');
+        var mensagem = document.createElement('h2');
         mensagem.appendChild(document.createTextNode("Por favor selecione uma origem!"));
         mensagens.appendChild(mensagem);
     }
@@ -32,7 +32,7 @@ function eraseMensagens() {
 }
 
 function geraMensagemResultado(codigo){
-    let mensagem = document.createElement('h2');
+    let mensagem = document.createElement('h1');
     switch(codigo){
         case 1:{
             mensagem.appendChild(document.createTextNode("Exibindo todos os posts"));
