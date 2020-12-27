@@ -43,9 +43,7 @@
     margin-left:6%;
     width: 30%;
 }
-.logo > p {
-    margin: 0 auto;
-}
+
 .logo > img{
     width:10%;
     height:70%;
@@ -90,7 +88,7 @@ h3{
 }
 tr{
     background-color: #e8ffff;
-    font-size: 20px;
+    
 }
 tr:hover{
     background-color: #95bed8;
@@ -99,4 +97,5 @@ tr:hover{
 th{
     height: 50px;
     background-color: #45b6fe;
+    font-size: 25px;
 }
