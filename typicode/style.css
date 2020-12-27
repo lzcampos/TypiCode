@@ -85,9 +85,11 @@ h3{
 }
 tr{
     background-color: #e8ffff;
+    font-size: 20px;
 }
 tr:hover{
-    background-color: #bfe6ff;
+    background-color: #95bed8;
+    transition: background-color .5s;
 }
 th{
     height: 50px;
